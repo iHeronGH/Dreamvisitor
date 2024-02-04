@@ -237,7 +237,9 @@ public class DiscEventListener extends ListenerAdapter {
                     "Ponder this for a while. Take as long as you want.\n> *In the sea between ice and fire, A heart of power resides. Enchanted by Frostburn's touch, It holds unknown power inside.*\n" +
                             "> *The IceWings and the SkyWings will fight, For ownership of the heart. Allies join the deadly fray, As war rips their world apart.*\n" +
                             "> *But if the heart does not find its home, It will be destroyed and lost. The future hangs in the balance, As the nations clash and toss.*\n" +
-                            "> *Beware the Heart of Ice and Fire, A power yet unknown, If fallen into the wrong talons, No one can harness its throne.*\n...",
+                            "> *Beware the Heart of Ice and Fire, A power yet unknown, If fallen into the wrong talons, No one can harness its throne.*\n" +
+                    "...",
+
                     "...\n" +
                             "> *Dragons of sky, dragons of sea;*\n" +
                             "> *Dragons of silk, and dragons of sting;*\n" +
@@ -250,7 +252,8 @@ public class DiscEventListener extends ListenerAdapter {
                             "> *Mountains and valleys, rivers and seas;*\n" +
                             "> *From east to the west, there's none we can't see;*\n" +
                             "> *Let history not repeat its mistakes;*\n" +
-                            "> *For eyes of the skies are once more awake;*\n...",
+                            "> *For eyes of the skies are once more awake;*\n" +
+                    "...",
 
                     "Let's see if you remember this one.\n\n" +
                             "> *It never felt the moons on its wings, it never saw the stars in its eyes,*\n" +
@@ -262,9 +265,17 @@ public class DiscEventListener extends ListenerAdapter {
                             "> *She will show no mercy,*\n" +
                             "> *When she awakens.*\n\n" +
                             "> *The earth is rumbling...*\n" +
-                            "You could say I have a special nostalgia with that one."
-            };
+                    "You could say I have a special nostalgia with that one.",
 
+                    // General "jokes" and riddles
+                    "Hmmm... since you seem so insistent on pestering me, let's see if some humour will quell your curiosity:" +
+                            "Knock knock.\n" +
+                            "*You respond with a hearty \"who's there?\"*\n" +
+                            "Go away.\n" +
+                            "*You pipe up, \"go away, who?\"*\n" +
+                            "You.\n" +
+                    "How did you like that one? Is it enough to convince you to do so?"
+            };
 
             event.getChannel().sendMessage(responses[new Random().nextInt(responses.length)]).queue();
         }
